@@ -73,15 +73,15 @@ Run the script via command line:
 `python test_runner.py [OPTIONS]`
 
 ### Options
-*--configuration <int>	Index of the configuration to use (0-based) from the config file. If omitted and not in --no-interactive mode, the user will be prompted.
---jdk auto	Use an existing JDK installation (default).
---jdk download	Download and install JDK 17 automatically.
---system auto	Automatically detect the system (default).
---system windows	Force Windows settings.
---system wsl	Force WSL settings (useful on Windows Subsystem for Linux).
---system linux	Force Linux settings.
---system darwin	Force macOS settings.
---no-interactive	Run completely non-interactively. Required config must be provided via options or in config.json.*
+*--configuration <int>	Index of the configuration to use (0-based) from the config file. If omitted and not in --no-interactive mode, the user will be prompted.*
+*--jdk auto	Use an existing JDK installation (default).*
+*--jdk download	Download and install JDK 17 automatically.*
+*--system auto	Automatically detect the system (default).*
+*--system windows	Force Windows settings.*
+*--system wsl	Force WSL settings (useful on Windows Subsystem for Linux).*
+*--system linux	Force Linux settings.*
+*--system darwin	Force macOS settings.*
+*--no-interactive	Run completely non-interactively. Required config must be provided via options or in config.json.*
 
 
 ## Example of [raw] usage
