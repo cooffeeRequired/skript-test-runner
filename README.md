@@ -1,6 +1,3 @@
-# skript-test-runner
-Skript test runner for addons
-
 # Skript Test Runner
 
 This tool is designed to automate the testing of Skript plugin versions with optional custom configurations and environments.
