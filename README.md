@@ -99,7 +99,7 @@ tasks.register("withTesting") {
         println("> Task :running tests")
         exec {
             workingDir = projectDir
-            commandLine("python", "test_runner.py", "--configuration=1", "--jdk=auto", "--system=auto", "--no-interactive")
+            commandLine("python", "test_runner.py", "--configuration=0", "--jdk=auto", "--system=auto", "--no-interactive")
         }
     }
 }
@@ -114,7 +114,7 @@ tasks.register('withTesting') {
         println '> Task :running tests'
         exec {
             workingDir projectDir
-            commandLine 'python', 'test_runner.py', '--configuration=1', '--jdk=auto', '--system=auto', '--no-interactive'
+            commandLine 'python', 'test_runner.py', '--configuration=0', '--jdk=auto', '--system=auto', '--no-interactive'
         }
     }
 }
